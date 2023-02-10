@@ -1,0 +1,208 @@
+/* css container */
+.contain {
+    display: flex;
+    flex-direction: row;
+    height: 910px;
+}
+
+/* for navbar icon samping */
+.container-nav-icon {
+    background-color: #2A3440;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.kotak:last-child {
+    border-bottom: 1px solid black;
+}
+
+.kotak {
+    border-top: 1px solid #0C1014;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.kotak:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.kotak img {
+    width: 35px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.kotak .text {
+    margin-top: -2px;
+    color: #4e5a69;
+}
+
+.kotak .text:hover {
+    color: white;
+}
+
+/* container for text filter and data place */
+.contain-text {
+    background-color: #222D39;
+    width: 250px;
+    font-size: 14px;
+    box-shadow: 5px 0px 10px 0.5px rgba(0, 0, 0, 0.50);
+    z-index: 999;
+}
+
+.text-sidebar {
+    color: white;
+    border-top: 1px solid #0C1014;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.text-sidebar:last-child {
+    border-bottom: 1px solid black;
+}
+
+.text-sidebar:active {
+    color: greenyellow;
+    background-color: #0C1014;
+}
+
+.text-sidebar ul li {
+    color: #69798d;
+    list-style: none;
+    width: max-content;
+}
+
+.text-filter {
+    color: #69798d;
+    border-top: 1px solid #0C1014;
+    border-bottom: 0.5px solid #0C1014;
+    padding: 20px;
+    margin: 29px 0;
+    cursor: pointer;
+}
+
+/* part maps  */
+.image-maps .top-images {
+    width: 1160px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-weight: 700;
+    font-size: large;
+}
+
+.image-maps .top-icon img {
+    width: 40px;
+    margin-top: -10px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+/* part pop-up */
+.pop-up {
+    position: absolute;
+    right: 0;
+    top: 14%;
+    height: 811px;
+    width: 300px;
+    z-index: 999;
+    background-color: #2A3440;
+    box-shadow: -5px 0px 10px 0.5px rgba(0, 0, 0, 0.50);
+}
+
+.pop-up .pop-up-image img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.pop-up-name {
+    background-color: #8FDFDA;
+    color: white;
+    font-weight: 700;
+    height: 40px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.pop-up-information {
+    padding: 20px 30px;
+    font-size: 14px;
+    color: rgb(170, 168, 168);
+}
+
+.pop-up-information .point-biru img {
+    width: 10px;
+    height: 14px;
+    margin-top: -2px;
+    margin-right: 10px;
+}
+
+.pop-up-information .browser img {
+    width: 14px;
+    aspect-ratio: 1/1;
+    margin-top: -2px;
+    margin-right: 10px;
+}
+
+/* part for circle */
+.left-circle {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    justify-content: flex-end;
+    top: 250px;
+    border-radius: 100%;
+    z-index: 1100;
+    background-color: #0C1014;
+    left: -180px;
+    opacity: 20%;
+    color: white;
+}
+
+.left-circle .fa-chevron-left {
+    font-size: 40px;
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.left-circle:hover {
+    left: -150px;
+    opacity: 70%;
+    transition: 0.5s ease-out;
+}
+
+.right-circle {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 250px;
+    border-radius: 100%;
+    z-index: 1100;
+    background-color: #0C1014;
+    right: -180px;
+    opacity: 30%;
+    color: white;
+}
+
+.right-circle .fa-chevron-right {
+    font-size: 40px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.right-circle:hover {
+    right: -150px;
+    opacity: 70%;
+    transition: 0.5s ease-out;
+    color: white;
+}
